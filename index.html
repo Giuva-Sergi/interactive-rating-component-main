@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Interactive rating component</title>
+  </head>
+  <body>
+    <main>
+      <div class="wrapper bg-neutral-700">
+        <header>
+          <img
+            class="icon-star"
+            src="images/icon-star.svg"
+            alt="icon of a star"
+          />
+          <h2>How did we do?</h2>
+        </header>
+        <section class="message">
+          <p>
+            Please let us know how we did with your support request. All
+            feedback is appreciated to help us improve our offering!
+          </p>
+        </section>
+        <section class="rate-container flex">
+          <button class="btn__rate">1</button>
+          <button class="btn__rate">2</button>
+          <button class="btn__rate">3</button>
+          <button class="btn__rate">4</button>
+          <button class="btn__rate">5</button>
+        </section>
+        <section class="submit-container">
+          <button class="btn__submit">Submit</button>
+        </section>
+      </div>
+
+      <div class="thank-you-wrapper center-align bg-neutral-700">
+        <header>
+          <img
+            class="thank-you-icon"
+            src="images/illustration-thank-you.svg"
+            alt="icon of a phone sending a message"
+          />
+        </header>
+        <p class="user-rate">You selected 4 out of 5</p>
+        <h2>Thank you!</h2>
+        <section class="message">
+          <p>
+            We appreciate you taking the time to give a rating. If you ever need
+            more support, don’t hesitate to get in touch!
+          </p>
+        </section>
+      </div>
+    </main>
+
+    <!-- Rating state start -->
+
+    <!-- How did we do?
+
+  Please let us know how we did with your support request. All feedback is appreciated 
+  to help us improve our offering!
+
+  1 2 3 4 5
+
+  Submit -->
+
+    <!-- Rating state end -->
+
+    <!-- Thank you state start -->
+
+    <!-- You selected -- Add rating here -->
+    <!-- out of 5 Thank you! We appreciate you taking the time to give a rating. If
+    you ever need more support, don’t hesitate to get in touch! -->
+
+    <!-- Thank you state end -->
+
+    <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+    <script src="script.js"></script>
+  </body>
+</html>
+
+<!-- style="
+              display: inline-block;
+              border-radius: 60px;
+              padding: 0.5em 0.6em;
+            " -->
