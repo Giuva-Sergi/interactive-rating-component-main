@@ -18,5 +18,6 @@ const updateUI = function (userRate) {
 };
 
 submitBtn.addEventListener("click", () => {
+  if (!userRate) return;
   updateUI(userRate);
 });
